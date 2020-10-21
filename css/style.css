@@ -7,7 +7,7 @@
 	width: 100px;
 	vertical-align: middle;
 	float: left;
-	padding-left: 300px;
+	padding-left: 200px;
 	padding-top: 50px;
 	font-size: 40px;
 	color: #FFFFFF;
@@ -34,10 +34,13 @@
 	padding-top: 15px;
 }
 .maindiv {
-	width: 617px;
-	background-color: #FCEE21;
-	margin-left: 150px;
-	display: inline-block;
+	width:617px;
+    height:356px;
+    margin-top:150px;
+    background-color: #FCEE21;
+    float:left;
+    margin-left:50px;
+    font-family: 'Roboto Mono', monospace
 }
 
 .image1 {
@@ -54,17 +57,26 @@
 }
 
 .maindiv1 {
-    width: 617px;
-	background-color: #FCEE21;
-	margin-right: 400px;
     float: right;
-    height: 300px;
+    width:617px;
+    height:356px;
+    margin-top:150px;
+    background-color: #FCEE21;
+    margin-right:50px;
+    font-family: 'Roboto Mono', monospace
 
 
 }
 
-.container {
-     width: 1157px;
-     background-color: red;
+.conteiner {
+     /*margin-top: 5px;*/
+     margin-left: auto;
+     margin-right: auto;
+     width: 1400px;
+     height: 700px;
+     background-color: #56836F
 
+}
+.nav{
+	width:100%;
 }
